@@ -18,10 +18,13 @@ function emacsSelect(bp)
 	end
 end
 
-function endEmacsSelect(bp)
+function endEmacsSelect(bp, message)
 	if selecting then
 		selecting = false
 		bp.Cursor:ResetSelection()
+		if message then
+			micro.InfoBar():Message("Ending emacs select mode")
+		end
 	end
 end
 
@@ -118,5 +121,5 @@ function onCut(bp)
 end
 
 function onEscape(bp)
-	endEmacsSelect(bp)
+	endEmacsSelect(bp, true)
 end

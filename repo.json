@@ -1,7 +1,12 @@
 [{
-  "Name": "emacs_select",
-  "Description": "add emacs-style selection",
-  "Tags": ["select", "emacs"],
-  "Versions": [
-  ]
+	"Name": "emacs_select",
+	"Description": "add emacs-like selection",
+	"Tags": ["select", "emacs"],
+	"Versions": [
+  		"Version": "1.0.0",
+ 		"Url": "https://github.com/deusnefum/micro-emacs-select/archive/v1.0.0.zip",
+ 		"Require": {
+  			"micro": ">=2.0.0"
+		}
+	]
 }]
