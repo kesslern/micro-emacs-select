@@ -3,7 +3,7 @@
 	"Description": "add emacs-like selection",
 	"Tags": ["select", "emacs"],
 	"Versions": [
-    	{
+		{
   			"Version": "1.0.0",
  			"Url": "https://github.com/kesslern/micro-emacs-select/archive/refs/tags/v1.0.0.zip",
  			"Require": {
